@@ -1,0 +1,254 @@
+*
+{
+    /* helps remove the extra space from the entire page  */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+.navbar
+{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 5%;
+    z-index: 10;
+}
+
+.navbar_netflix
+{
+    width: 125px;
+    height: 100%;
+}
+
+.nav_items
+{
+    display: flex;
+    gap: 10px;
+}
+
+.netflix_logo
+{
+    height: 100%;
+    width: 100%;
+}
+
+#language
+{
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.language_dropdown
+{
+    border: 1px solid white;
+    padding: 0.4rem;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0);
+}
+
+.signin
+{
+    border: #dc030f;
+    background-color: #dc030f;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    height: 35px;
+    width: 100px;
+}
+
+.background_image
+{
+    width: 100%;
+    height: 100%;
+}
+
+.bg_image
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.bg_overlay
+{
+    position: absolute;
+    inset: 0; /*shorhand for margin attribute*/
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.text
+{
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    left: 30%;
+}
+
+.title
+{
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.sub_title, 
+.description
+{
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.email
+{
+    width: 450px;
+    height: 60px;
+    color: black;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    border-color: white;
+}
+
+.get_started
+{
+    font-size: large;
+    width: 170px;
+    height: 70px;
+    background-color: #dc030f;
+    border: #dc030f 1px solid;
+    color: white;
+}
+
+.card2 ,
+.card3 ,
+.card4 ,
+.card5 
+{
+    border-top: 8px rgb(69, 69, 69) solid;
+    padding: 50px;
+}
+
+.card1
+{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+}
+
+.data1
+{
+    padding-left: 80px;
+}
+
+.style_cards h1
+{
+    font-size: 3rem;
+    padding: 1rem;
+    padding-left: 0;
+}
+
+.style_cards h3
+{
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+.card2
+{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 40% 50%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+}
+
+.data2
+{
+    padding-left: 200px;
+    padding-right: 80px;
+}
+
+.card3
+{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+}
+
+.data3
+{
+    padding-left: 80px;
+    padding-right: 20px;
+}
+
+.card4
+{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 40% 50%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+}
+
+.data4
+{
+    padding-left: 80px;
+    padding-right: 20px;
+}
+
+.footer
+{
+    border-top: 8px rgb(69, 69, 69) solid;
+    padding: 50px;
+    max-width: 70%;
+    margin: 1rem;
+    overflow: auto;
+}
+
+.footer ,
+.footer a
+{
+    color: #999999;
+    font-size: 0.9rem;
+}
+
+.footer p
+{
+    margin-bottom: 1.5rem;
+}
+
+.footer .list
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+}
+
+.footer li
+{
+    line-height: 2.4;
+    list-style: none;
+}
